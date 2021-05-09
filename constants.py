@@ -1,0 +1,7 @@
+import struct
+HEADER_SIZE = struct.calcsize("iIc")
+TEXT_TYPE = 1
+FILE_TYPE = 2
+CODING = "UTF-8"
+BUFFER_SIZE = 1500
+KEEP_ALIVE_INTERVAL = 25
